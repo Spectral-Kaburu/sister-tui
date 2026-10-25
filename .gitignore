@@ -1,0 +1,7 @@
+# Build output (the root-level binary; cmd/SpectreTUI is source and is tracked)
+/SpectreTUI
+*.test
+*.out
+
+# Generated graph output
+/graphify-out/
