@@ -1,0 +1,24 @@
+{
+  "title": "Code Review Summary",
+  "width": 90,
+  "blocks": [
+    {
+      "type": "markdown",
+      "severity": "info",
+      "content": "### Pull Request #42: Feature Architecture\nAll automated pipeline checks have passed with 100% test coverage. Please review the design changes and approve or request revisions."
+    }
+  ],
+  "actions": [
+    {
+      "id": "approve",
+      "label": "Approve",
+      "exit_code": 0,
+      "is_primary": true
+    },
+    {
+      "id": "request_changes",
+      "label": "Request Changes",
+      "exit_code": 2
+    }
+  ]
+}

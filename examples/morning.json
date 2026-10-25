@@ -1,0 +1,30 @@
+{
+  "title": "Morning Briefing",
+  "subtitle": "Start your day",
+  "width": 80,
+  "blocks": [
+    {
+      "type": "markdown",
+      "severity": "tip",
+      "content": "### Daily Overview\nAll tasks scheduled for today are queued. Remember to review your high-priority items before starting deep work."
+    }
+  ],
+  "actions": [
+    {
+      "id": "submit",
+      "label": "Submit",
+      "exit_code": 0,
+      "is_primary": true
+    },
+    {
+      "id": "defer",
+      "label": "Defer",
+      "exit_code": 10
+    },
+    {
+      "id": "skip",
+      "label": "Skip",
+      "exit_code": 20
+    }
+  ]
+}

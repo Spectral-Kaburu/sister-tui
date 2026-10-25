@@ -1,0 +1,24 @@
+{
+  "title": "Attendance Alert",
+  "width": 70,
+  "blocks": [
+    {
+      "type": "markdown",
+      "severity": "roast",
+      "content": "### You missed DSA Lecture!\nYour laptop was open for 45 minutes, yet LT3 was completely empty without you. Submit an excuse or acknowledge your attendance record."
+    }
+  ],
+  "actions": [
+    {
+      "id": "acknowledge",
+      "label": "Acknowledge",
+      "exit_code": 0,
+      "is_primary": true
+    },
+    {
+      "id": "excuse",
+      "label": "Excuse",
+      "exit_code": 1
+    }
+  ]
+}
